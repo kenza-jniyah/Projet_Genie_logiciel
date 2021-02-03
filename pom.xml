@@ -184,16 +184,15 @@
       </plugins>
     </reporting>
 	
+	
 	<distributionManagement>
     <repository>
-      <id>nexus</id>
-      <name>Releases</name>
-      <url>http://localhost:8081/repository/maven-releases</url>
+      <id>sourcesup</id>
+      <url>http://sourcesup.renater.fr/nexus/content/repositories/form-git-XXX-releases</url>
     </repository>
     <snapshotRepository>
-      <id>nexus</id>
-      <name>Snapshot</name>
-      <url>http://localhost:8081/repository/maven-snapshots</url>
+      <id>sourcesup</id>
+      <url>http://sourcesup.renater.fr/nexus/content/repositories/form-git-XXX-snapshots</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
